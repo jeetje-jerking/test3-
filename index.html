@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Hero Section -->
   <section class="hero">
     <div class="container">
       <h1>Ontdek de Magie van Lezen met Draakje Durfal!</h1>
@@ -14,6 +15,8 @@
       <a href="#" class="cta-button">Download Nu</a>
     </div>
   </section>
+
+  <!-- Benefits Section -->
   <section class="benefits">
     <div class="container">
       <h2>Waarom Draakje Durfal?</h2>
@@ -24,16 +27,36 @@
       </ul>
     </div>
   </section>
+
+  <!-- Ebook Preview -->
   <section class="preview">
     <div class="container">
       <h2>Een Voorproefje van Draakje Durfal</h2>
       <div class="preview-images">
-        <img src="preview1.jpg" alt="Preview Pagina 1">
-        <img src="preview2.jpg" alt="Preview Pagina 2">
+        <img src="images/preview1.jpg" alt="Preview Pagina 1">
+        <img src="images/preview2.jpg" alt="Preview Pagina 2">
       </div>
       <a href="#" class="cta-button">Download Nu</a>
     </div>
   </section>
+
+  <!-- E-mail Signup Section -->
+  <section class="email-signup">
+    <div class="container">
+      <h2>Download je gratis ebook!</h2>
+      <p>Vul je e-mailadres in om het ebook te ontvangen.</p>
+      <form id="email-form" action="https://formspree.io/f/[your-form-id]" method="POST">
+        <input type="email" name="email" placeholder="Voer je e-mailadres in" required>
+        <button type="submit" class="cta-button">Download Nu</button>
+      </form>
+      <div id="thank-you-message" class="hidden">
+        <h3>Bedankt!</h3>
+        <p>We hebben je e-mailadres ontvangen. Je ontvangt het ebook binnen enkele minuten in je inbox.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="socials">
@@ -47,19 +70,7 @@
       <p>&copy; 2023 Wonderboekjes</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-<section class="email-signup">
-  <div class="container">
-    <h2>Download je gratis ebook!</h2>
-    <p>Vul je e-mailadres in om het ebook te ontvangen.</p>
-    <form id="email-form" action="https://formspree.io/f/[your-form-id]" method="POST">
-      <input type="email" name="email" placeholder="Voer je e-mailadres in" required>
-      <button type="submit" class="cta-button">Download Nu</button>
-    </form>
-    <div id="thank-you-message" class="hidden">
-      <h3>Bedankt!</h3>
-      <p>We hebben je e-mailadres ontvangen. Je ontvangt het ebook binnen enkele minuten in je inbox.</p>
-    </div>
-  </div>
-</section>
