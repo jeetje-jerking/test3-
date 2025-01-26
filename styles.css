@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #4a6fa5;
+}
+
+.hero {
+  background: linear-gradient(135deg, #4a6fa5, #6a8fbf); 
+  color: white;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+
+.cta-button {
+  background-color: #4a6fa5; 
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cta-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(74, 111, 165, 0.3); 
+}
+
+
+.benefits {
+  padding: 80px 0;
+  background-color: white;
+}
+
+.benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+
+.preview {
+  padding: 80px 0;
+  background-color: #f0f4f8; 
+}
+
+.preview-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.preview-images img {
+  max-width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+
+footer {
+  padding: 40px 0;
+  background-color: #4a6fa5; 
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
